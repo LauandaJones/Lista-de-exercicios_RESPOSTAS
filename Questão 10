@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner entrada = new Scanner(System.in);
+	    
+	    System.out.println("Quanto será investido por mês?");
+	    double InvesMes = entrada.nextDouble();
+	    System.out.println("Qual será a taxa de juros mensal?");
+	    double JurosMen = entrada.nextDouble();
+	    double Investido = InvesMes + 12; 
+	    double Juros = JurosMen + 12;
+	    double SALDO = Investido + Juros;
+	    
+	    System.out.println("Saldo do investimento após 1 ano: " + SALDO);
+	    
+	    System.out.println("Deseja processar mais um ano? (S/N)");
+	    String SimNao = entrada.next();
+	    while (SimNao = S) {
+	        System.out.println("Quanto será investido por mês?");
+	        double InvesMes = entrada.nextDouble();
+	        System.out.println("Qual será a taxa de juros mensal?");
+	        double JurosMen = entrada.nextDouble();
+	        double Investido = InvesMes + 12; 
+	        double Juros = JurosMen + 12;
+	        double SALDO = Investido + Juros;
+	        
+	    } 
+	    
+	}
+}
