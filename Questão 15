@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+         
+        System.out.println("Nota 1: ");
+        float NOTA1 = entrada.nextFloat();
+        
+        System.out.println("Nota 2: ");
+        float NOTA2 = entrada.nextFloat();
+        
+        System.out.println("Nota 3: ");
+        float NOTA3 = entrada.nextFloat();
+        
+        float MEDIA = (NOTA1 + NOTA2 + NOTA3) / 3;
+        
+        System.out.println("A média é: " + MEDIA);
+        
+        if (MEDIA > 6) {
+             System.out.println("Aprovado");
+        }
+        if (MEDIA >= 4 & MEDIA <= 6) {
+             System.out.println("Verificação Suplementar");
+        }
+        if (MEDIA < 4) {
+             System.out.println("Reprovado");
+        }
+
+
+	}
+}
